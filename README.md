@@ -1,0 +1,5 @@
+# cabal-project
+
+## Installation
+
+## Configuration
