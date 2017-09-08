@@ -60,4 +60,4 @@ syntax match cabalVariable "\v\$.*$"
 
 highlight link cabalProjectKeyword Keyword
 highlight link cabalVariable Special
-highlight link cabalBoolean Identifier
+highlight link cabalBoolean Constant
