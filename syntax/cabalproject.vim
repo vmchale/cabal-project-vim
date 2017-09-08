@@ -1,11 +1,27 @@
-syntax keyword cabalProjectKeyword packages profiling optional-packages
-syntax keyword cabalProjectKeyword extra-packages solver doc-index-file
-syntax keyword cabalProjectKeyword max-backjumps reorder-goals count-conflicts
-syntax keyword cabalProjectKeyword strong-flags allow-boot-library-installs
-syntax keyword cabalProjectKeyword remote-build-reporting report-planning-failure
-syntax keyword cabalProjectKeyword per-component one-shot keep-going offline
-syntax keyword cabalProjectKeyword with-compiler documentation haddock-keep-temp-files
-syntax keyword cabalProjectKeyword haddock-hoogle haddock-html haddock-executables haddock-tests
-syntax keyword cabalProjectKeyword haddock-benchmarks haddock-foreign-libraries haddock-internal haddock-hyperlink-source
+syntax keyword cabalProjectKeyword packages profiling solver offline documentation
+syntax match cabalProjectKeyword "optional-packages"
+syntax match cabalProjectKeyword "extra-package"
+syntax match cabalProjectKeyword "doc-index-file"
+syntax match cabalProjectKeyword "optional-packages"
+syntax match cabalProjectKeyword "max-backjumps"
+syntax match cabalProjectKeyword "reorder-goals"
+syntax match cabalProjectKeyword "count-conflicts"
+syntax match cabalProjectKeyword "strong-flags"
+syntax match cabalProjectKeyword "allow-boot-library-installs"
+syntax match cabalProjectKeyword "remote-build-reporting"
+syntax match cabalProjectKeyword "report-planning-failure"
+syntax match cabalProjectKeyword "per-component"
+syntax match cabalProjectKeyword "one-shot"
+syntax match cabalProjectKeyword "keep-going"
+syntax match cabalProjectKeyword "with-compiler"
+syntax match cabalProjectKeyword "haddock-keep-temp-files"
+syntax match cabalProjectKeyword "haddock-hoogle"
+syntax match cabalProjectKeyword "haddock-html"
+syntax match cabalProjectKeyword "haddock-executables"
+syntax match cabalProjectKeyword "haddock-tests"
+syntax match cabalProjectKeyword "haddock-benchmarks"
+syntax match cabalProjectKeyword "haddock-foreign-libraries"
+syntax match cabalProjectKeyword "haddock-internal"
+syntax match cabalProjectKeyword "haddock-hyperlink-source"
 
 highlight link cabalProjectKeyword Keyword
