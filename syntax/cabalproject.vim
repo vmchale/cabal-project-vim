@@ -24,4 +24,6 @@ syntax match cabalProjectKeyword "haddock-foreign-libraries"
 syntax match cabalProjectKeyword "haddock-internal"
 syntax match cabalProjectKeyword "haddock-hyperlink-source"
 
-highlight link cabalProjectKeyword Keyword
+syntax region cabalProjectField start=// end=/:/ contains=cabalProjectKeyword
+
+highlight link cabalProjectField Keyword
