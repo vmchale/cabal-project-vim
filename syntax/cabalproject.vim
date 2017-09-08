@@ -1,4 +1,4 @@
-syntax keyword cabalProjectKeyword packages profiling solver offline documentation
+syntax keyword cabalProjectKeyword packages profiling solver offline documentation jobs
 syntax match cabalProjectKeyword "optional-packages"
 syntax match cabalProjectKeyword "extra-package"
 syntax match cabalProjectKeyword "doc-index-file"
@@ -24,7 +24,7 @@ syntax match cabalProjectKeyword "haddock-foreign-libraries"
 syntax match cabalProjectKeyword "haddock-internal"
 syntax match cabalProjectKeyword "haddock-hyperlink-source"
 
-syntax region cabalVariable start=/\$/ end=/ \n/
+syntax match cabalVariable "\v\$.*$"
 
 " syntax region cabalProjectField start=// end=/:/ contains=cabalProjectKeyword
 
