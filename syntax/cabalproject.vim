@@ -58,6 +58,9 @@ syntax match cabalVariable "\v\$.*$"
 
 " syntax region cabalProjectField start=// end=/:/ contains=cabalProjectKeyword
 
+syntax match ipkgComment "\v--.*$"
+
+highlight link ipkgComment Comment
 highlight link cabalProjectKeyword Keyword
 highlight link cabalVariable Special
 highlight link cabalBoolean Constant
