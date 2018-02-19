@@ -7,4 +7,4 @@ function! s:setConfig()
     endif
 endfunction
 
-au BufNewFile,BufRead config call s:setConfig
+au BufNewFile,BufRead config call s:setConfig()
