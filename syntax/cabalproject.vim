@@ -68,7 +68,7 @@ syntax match cabalProjectKeyword "cabal-lib-version"
 
 syntax keyword cabalBoolean True False
 
-syntax match cabalVariable "\v\${.*}"
+syntax match cabalVariable "\v\$\{.*\}"
 
 syntax match cabalProjectComment "\v--.*$" contains=@Spell
 
