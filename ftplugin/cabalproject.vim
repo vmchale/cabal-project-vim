@@ -3,4 +3,4 @@ if exists('b:cabalproject_ftplugin')
 endif
 let b:cabalproject_ftplugin = 1
 
-setlocal commentstring=--\ %s\
+setlocal commentstring=--\ %s
