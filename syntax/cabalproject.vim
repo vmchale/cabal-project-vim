@@ -66,7 +66,7 @@ syntax match cabalProjectKeyword "http-transport"
 syntax match cabalProjectKeyword "ignore-expiry"
 syntax match cabalProjectKeyword "cabal-lib-version"
 
-syntax keyword cabalBoolean True False
+syntax keyword cabalBoolean True False true false
 
 syntax match cabalVariable "\v\$\{.*\}"
 
