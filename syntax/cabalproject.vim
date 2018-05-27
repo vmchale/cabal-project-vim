@@ -66,6 +66,10 @@ syntax match cabalProjectKeyword "http-transport"
 syntax match cabalProjectKeyword "ignore-expiry"
 syntax match cabalProjectKeyword "cabal-lib-version"
 
+syntax match cabalProjectOperator ">="
+syntax match cabalProjectOperator "<="
+syntax match cabalProjectOperator "=="
+
 syntax keyword cabalBoolean True False true false
 
 syntax match cabalVariable "\v\$\{.*\}"
@@ -76,3 +80,4 @@ highlight link cabalProjectComment Comment
 highlight link cabalProjectKeyword Keyword
 highlight link cabalVariable Special
 highlight link cabalBoolean Constant
+highlight link cabalProjectOperator Float
