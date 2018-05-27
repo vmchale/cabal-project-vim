@@ -66,11 +66,11 @@ syntax match cabalProjectKeyword "http-transport"
 syntax match cabalProjectKeyword "ignore-expiry"
 syntax match cabalProjectKeyword "cabal-lib-version"
 
+syntax match cabalProjectOperator "<"
+syntax match cabalProjectOperator ">"
 syntax match cabalProjectOperator ">="
 syntax match cabalProjectOperator "<="
 syntax match cabalProjectOperator "=="
-syntax match cabalProjectOperator "<"
-syntax match cabalProjectOperator ">"
 
 syntax keyword cabalBoolean True False true false
 
