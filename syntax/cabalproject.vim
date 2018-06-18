@@ -1,4 +1,4 @@
-syntax keyword cabalProjectKeyword packages profiling solver offline documentation jobs optimization compiler constraints preferences tests benchmarks flags shared static coverage verbose builddir relocatable
+syntax keyword cabalProjectKeyword package packages profiling solver offline documentation jobs optimization compiler constraints preferences tests benchmarks flags shared static coverage verbose builddir relocatable
 syntax match cabalProjectKeyword "optional-packages"
 syntax match cabalProjectKeyword "store-dir"
 syntax match cabalProjectKeyword "extra-packages"
