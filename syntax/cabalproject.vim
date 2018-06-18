@@ -76,7 +76,8 @@ syntax keyword cabalBoolean True False true false
 
 syntax match cabalVariable "\v\$\{.*\}"
 
-syntax match cabalProjectComment "\v--.*$" contains=@Spell
+syntax match cabalProjectComment "\v^--.*$" contains=@Spell
+syntax match cabalProjectComment "\v^ *--.*$" contains=@Spell
 
 highlight link cabalProjectComment Comment
 highlight link cabalProjectKeyword Keyword
