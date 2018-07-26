@@ -1,4 +1,4 @@
-syntax keyword cabalProjectKeyword package packages profiling solver offline documentation jobs optimization compiler constraints preferences tests benchmarks flags shared static coverage verbose builddir relocatable
+syntax keyword cabalProjectKeyword package packages profiling solver offline documentation jobs optimization compiler constraints preferences tests benchmarks flags shared static coverage verbose builddir relocatable repository type tag url secure
 syntax match cabalProjectKeyword "optional-packages"
 syntax match cabalProjectKeyword "store-dir"
 syntax match cabalProjectKeyword "extra-packages"
@@ -66,6 +66,8 @@ syntax match cabalProjectKeyword "haddock-keep-temp-files"
 syntax match cabalProjectKeyword "http-transport"
 syntax match cabalProjectKeyword "ignore-expiry"
 syntax match cabalProjectKeyword "cabal-lib-version"
+syntax match cabalProjectKeyword "root-keys"
+syntax match cabalProjectKeyword "key-threshold"
 
 syntax match cabalProjectOperator "<"
 syntax match cabalProjectOperator ">"
