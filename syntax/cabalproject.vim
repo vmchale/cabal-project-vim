@@ -1,6 +1,7 @@
 syntax keyword cabalProjectKeyword package packages profiling solver offline documentation jobs optimization compiler constraints preferences tests benchmarks flags shared static coverage verbose builddir relocatable repository type tag url secure location subdir
 syntax match cabalProjectKeyword "optional-packages"
 syntax match cabalProjectKeyword "store-dir"
+syntax match cabalProjectKeyword "write-ghc-environment-files"
 syntax match cabalProjectKeyword "extra-packages"
 syntax match cabalProjectKeyword "source-repository-package"
 syntax match cabalProjectKeyword "doc-index-file"
